@@ -103,9 +103,10 @@ body{
 }
 
 .box1 ul li {
+    position: relative;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    
 }
 
 .progress-bar{
@@ -154,6 +155,7 @@ body{
 
 .skill_title{
     min-width: 300px;
+    margin-top: -4px;
 }
 
 .V-progress{
@@ -170,4 +172,8 @@ body{
 
 .D-progress{
     width: 10%;
+}
+
+.box1{
+    column-count: 2;
 }

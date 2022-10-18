@@ -107,34 +107,3 @@ img#logo {
 span:hover {
 	background-color: #009dcb;
 }
-
-.clearfix {
-	margin-top: 3rem;
-	margin-left: 10rem;
-	margin-right: 10rem;
-	border: solid;
-	border-radius: 1rem;
-	border-color: blue;
-}
-
-.clearfix h2 {
-	color: #009dcb;
-	margin-left: 30px;
-}
-
-.more-link {
-	margin-left: 1000px;
-	
-}
-
-.more-link a {
-	text-decoration: none;
-}
-
-.item-list a {
-	text-decoration: none;
-}
-
-.item-list li {
-	margin-top: 5px;
-}
