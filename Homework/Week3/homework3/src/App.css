@@ -1,0 +1,226 @@
+*{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar{
+  position: relative;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  border-bottom: solid;
+  margin-bottom: 50px;
+}
+
+.profile {
+  padding-top: 50px;
+  text-align: center;
+}
+
+.profile h1 {
+  color: #21a2a1;
+
+}
+
+.container{
+  position: relative;
+  padding-left: 200px;
+  padding-right: 200px;
+
+}
+
+.firstbox{
+  position: relative;
+  margin-bottom: 50px;
+  column-count: 3;
+}
+
+.firstbox img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+  border-radius: 15px;
+}
+
+.aboutme {
+  margin-left: 100px;
+}
+.aboutme h2{
+  color: #21a2a1;
+}
+
+.details h2 {
+  color: #21a2a1;
+}
+
+.details .title{
+  font-weight: 900;
+}
+
+.details{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.secondbox{
+  background-color: #f8ece4;
+  margin-bottom: 70px;
+  border-radius: 10px;
+}
+
+.secondbox .title{
+  padding-top: 20px;
+  text-align: center;
+  color: #21a2a1;
+  font-size: 30px;
+}
+
+.content{
+  position: relative;
+  margin-left: 40px;
+  margin-right: 80px;
+
+}
+
+.content h2 {
+  color:#21a2a1
+}
+
+.content .box {
+  display: flex;
+  flex-direction: row;
+}
+
+.content .box .ct {
+  min-width: 300px;
+}
+
+.thirdbox .title{
+  text-align: center;
+  color: #21a2a1;
+  font-size: 25px;
+}
+
+.box1 ul li {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.progress-bar{
+  position: relative;
+  width: 700px;
+  height: 0.7rem;
+  background-color: rgb(190, 190, 190);
+  border-radius: 5px;
+}
+
+.progress{
+  height: 100%;
+  position: absolute;
+  left: 0;
+  background-color: #21a2a1;
+  border-radius: 5px;
+}
+
+.js-progress{
+  width: 80%;
+}
+
+.hc-progress{
+  width: 60%;
+}
+
+.s-progress{
+  width: 100%;
+}
+
+.j-progress{
+  width: 60%;
+}
+
+.oop-progress{
+  width: 80%;
+}
+
+.se-progress{
+  width: 40%;
+}
+
+.rt-progress{
+  width: 40%;
+}
+
+.skill_title{
+  min-width: 300px;
+  margin-top: -4px;
+}
+
+.V-progress{
+  width: 100%;
+}
+
+.E-progress{
+  width: 60%;
+}
+
+.C-progress{
+  width: 100%;
+}
+
+.D-progress{
+  width: 10%;
+}
+
+.box1{
+  column-count: 2;
+}
+
+.Menu{
+  position: fixed;
+  right: 0;
+  display: flex;
+  box-shadow: 0 5px 25px rgba(0,0,0,0.25);
+  width: 200px;
+}
+
+
+#items ul{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-left: -35px;
+}
+
+#items ul li {
+  list-style: none;
+
+}
+
+#items ul li a{
+  color: black;
+  height: 60px;
+  line-height: 60px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 0 15px;
+  letter-spacing: 2px;
+  margin-left: 20px;
+}
+
+#items ul li a:hover {
+  background: #ffff;
+  background-color: #21a2a1;
+}
+
+#items.activate{
+  height: 280px;
+  width: 200px;
+}

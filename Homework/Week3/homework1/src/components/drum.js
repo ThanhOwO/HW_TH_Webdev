@@ -30,6 +30,7 @@ function Drum(props) {
     <div className={`drum ${playing ? "playing" : ""}`} onClick={play}>
       <div className={`key drum${props.letter}`} onClick={handleKeyPress}>{props.letter}</div>
     </div>
+    
   );
 }
 
